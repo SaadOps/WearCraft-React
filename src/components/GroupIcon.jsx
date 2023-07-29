@@ -1,0 +1,16 @@
+import React from 'react';
+
+function GroupIcon() {
+  return (
+    <div
+      className="group-icon">
+        <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 26.6022V25.1906C1 20.5129 5.36522 16.7209 10.75 16.7209H17.25C22.6348 16.7209 27 20.5129 27 25.1906V26.6022" stroke="#F8F8F8" stroke-width="2" stroke-linecap="round"/>
+<path d="M14 12.4861C10.4101 12.4861 7.5 9.9581 7.5 6.83964C7.5 3.72118 10.4101 1.19318 14 1.19318C17.5898 1.19318 20.5 3.72118 20.5 6.83964C20.5 9.9581 17.5898 12.4861 14 12.4861Z" stroke="#F8F8F8" stroke-width="2" stroke-linecap="round"/>
+</svg>
+
+    </div>
+  );
+}
+
+export default GroupIcon;
