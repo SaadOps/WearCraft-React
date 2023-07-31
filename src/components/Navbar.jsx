@@ -2,10 +2,10 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import GroupIcon from './GroupIcon';
-import SearchIcon from './SearchIcon';
-import VectorIcon from './VectorIcon';
-
+import Image from 'react-bootstrap/Image';
+import SearchIcon from '../assets/SearchIcon.svg';
+import BagIcon from '../assets/BagIcon.svg';
+import GroupIcon from '../assets/GroupIcon.svg'
 function Navb() {
   return (
     <Navbar expand="lg" className="bg-black px-4">
@@ -25,15 +25,19 @@ function Navb() {
           </Nav>
           {/* Nav items aligned to the right */}
           <Nav className="ms-auto">
-            <Nav.Link href="#link" className="text-white">
-              <SearchIcon />
+            <Nav.Link href="#link" className="text-white ms-3">
+            <Image src={SearchIcon}  />
+
             </Nav.Link>
             <Nav.Link href="#link" className="text-white ms-3">
-              <VectorIcon />
+            <Image src={BagIcon}  />
+
             </Nav.Link>
             {/* Additional Nav items */}
             <Nav.Link href="#link" className="text-white ms-3">
-              <GroupIcon />
+              {/* Replace the GroupIcon component with an image tag */}
+              <Image src={GroupIcon}  />
+
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
