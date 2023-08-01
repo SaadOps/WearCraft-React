@@ -8,14 +8,14 @@ import BagIcon from '../assets/BagIcon.svg';
 import GroupIcon from '../assets/GroupIcon.svg'
 function Navb() {
   return (
-    <Navbar expand="lg" className="bg-black px-4 ">
+    <Navbar expand="lg" className="bg-black px-4">
       <Container fluid>
         {/* Navbar.Toggle button */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="order-first text-white bg-white " />
         {/* Navbar.Collapse content */}
         <Navbar.Collapse id="basic-navbar-nav">
           {/* Nav items aligned to the left */}
-          <Nav className="me-auto ">
+          <Nav className="me-auto">
             <Nav.Link href="#home" className="text-white fs-5 me-3">
               Men
             </Nav.Link>
@@ -24,7 +24,7 @@ function Navb() {
             </Nav.Link>
           </Nav>
           {/* Nav items aligned to the right */}
-          <Nav className="ms-auto ">
+          <Nav className="ms-auto">
             <Nav.Link href="#link" className="text-white ms-3">
             <Image src={SearchIcon}  />
 
@@ -42,7 +42,7 @@ function Navb() {
           </Nav>
         </Navbar.Collapse>
         {/* Navbar.Brand with flexbox classes */}
-        <Navbar.Brand href="#home" className="text-white font-serif text-center fs-2 position-absolute start-50 translate-middle-x">
+        <Navbar.Brand href="#home" className="text-white text-center fs-2 position-absolute start-50 translate-middle-x">
           WearCraft
         </Navbar.Brand>
       </Container>
