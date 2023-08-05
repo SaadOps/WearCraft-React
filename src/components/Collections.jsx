@@ -13,7 +13,7 @@ function Collections() {
             className="bg-black flex items-center justify-center"
           >
             <div className="text-center text-white">
-              <p className="text-xl md:text-4xl md:font-bold">Men's</p>
+              <p className="text-xl md:text-4xl md:font-bold" >Men's</p>
               <p className="text-base md:text-2xl">View Collection</p>
             </div>
           </Col>

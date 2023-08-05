@@ -12,7 +12,7 @@ const CustomizableTShirt = () => {
           Share your design, size, and T-shirt variant, and our team will bring your vision to life.
         </p>
         <Button variant="danger" className="mt-4">
-          Get Started
+          Customize Now
         </Button>
       </div>
     </div>
