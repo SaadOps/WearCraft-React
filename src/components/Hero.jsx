@@ -18,7 +18,7 @@ function CardOnImage() {
             </Card.Title>
             <Button
               
-              className="bg-white hover:bg-black:text-white text-black text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-3xl font-bold py-2 px-4 "
+              className="bg-white hover:bg-black hover:text-white text-black text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-3xl font-bold py-2 px-4 "
             >
               Shop Now
             </Button>

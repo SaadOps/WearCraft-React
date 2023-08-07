@@ -13,7 +13,7 @@ function Navb() {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className="text-white fs-5 me-3">
+            <Nav.Link href="#Menpage" className="text-white fs-5 me-3">
               Men
             </Nav.Link>
             <Nav.Link href="#link" className="text-white fs-5 me-3">
