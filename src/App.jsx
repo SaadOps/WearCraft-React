@@ -64,12 +64,12 @@ function App() {
   return ( 
     <div className='m-0 p-0'>
             <Navbar />
-           {/* <Hero />
+           <Hero />
           <Customization />
           <Collections />
-          <Tagline />  */}
+          <Tagline /> 
           <Menpage/>
-          {/* <Womenpage/>
+          <Womenpage/>
           <Categorymen1/>
           <Categorywomen1/>
           <Categorymen2/>
@@ -77,8 +77,8 @@ function App() {
           <Categorywomen2/>
           <Categorywomen3/>
           <Wishlist/>
-          <Sectionsignin/>
-          <Signinpage/> */}
+          {/* <Sectionsignin/> */}
+          <Signinpage/>
 
     </div>
    
