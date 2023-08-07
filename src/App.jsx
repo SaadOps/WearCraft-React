@@ -6,6 +6,8 @@ import Hero from './components/Hero';
 import Collections from './components/Collections';
 import Customization from './components/Customization'
 import Tagline from './components/Tagline'
+import NewIn from './components/NewIn'; 
+import Footer from './components/Footer';
 function App() {
   return ( 
     <div className='m-0 p-0'>
@@ -14,6 +16,8 @@ function App() {
           <Customization />
           <Collections />
           <Tagline />
+          <NewIn />
+          <Footer />
 
     </div>
    
