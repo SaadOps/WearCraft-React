@@ -14,7 +14,7 @@ function BasicExample() {
       <h1 className="text-4xl font-bold text-white text-center mb-4">New In</h1>
         <Card style={{ width: '16rem' }} className="mb-3 mr-10  px-0 bg-transparent text-white" >
           <Card.Img variant="top" src={New1} />
-          <Card.Body className='bg-black rounded-[15px]'>
+          <Card.Body className='bg-black'>
             <Card.Title>Cotton jersey T-shirt</Card.Title>
             <Card.Text className='font-bold'>
               Rs. 599
@@ -27,7 +27,7 @@ function BasicExample() {
 
         <Card style={{ width: '16rem' }} className="mb-3 mr-10  px-0 bg-transparent text-white">
           <Card.Img variant="top" src={New2} />
-          <Card.Body className='bg-black rounded-[15px]'>
+          <Card.Body className='bg-black'>
             <Card.Title>Cotton graffiti T-shirt</Card.Title>
             <Card.Text className='font-bold'>
               Rs. 599
@@ -40,7 +40,7 @@ function BasicExample() {
 
         <Card style={{ width: '16rem' }} className="mb-3 mr-10  px-0 bg-transparent text-white">
           <Card.Img variant="top" src={New3} />
-          <Card.Body className='bg-black rounded-[15px]'>
+          <Card.Body className='bg-black'>
             <Card.Title>Oversized graffiti print  </Card.Title>
             <Card.Text className='font-bold'>
               Rs. 599
