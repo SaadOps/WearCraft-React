@@ -15,7 +15,6 @@ function CardOnImage() {
           <Card.Body>
             {/* <Card.Title className="text-white font-bold text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-3xl whitespace-nowrap mb-4"> */}
             <Card.Title className="text-white font-bold text-lg md:text-3xl  whitespace-nowrap mb-4">
-
               Discover the new you
             </Card.Title>
             <Button
@@ -26,7 +25,6 @@ function CardOnImage() {
             </Button>
             {/* <Card.Text className="text-white text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-3xl mt-4 whitespace-nowrap mr-50"> */}
             <Card.Text className="text-white text-sm sm:text-base  md:text-3xl  mt-4 whitespace-nowrap md:-ml-40">
-
               We know your expectations about clothes
             </Card.Text>
           </Card.Body>
