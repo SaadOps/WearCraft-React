@@ -3,6 +3,7 @@ import SearchIcon from "../assets/SearchIcon.svg";
 import BagIcon from "../assets/BagIcon.svg";
 import GroupIcon from "../assets/GroupIcon.svg";
 
+
 function Navb() {
   return (
     <Navbar expand="lg" className="bg-black px-4">
@@ -13,21 +14,21 @@ function Navb() {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#Menpage" className="text-white fs-5 me-3">
+            <Nav.Link href="/menpage" className="text-white fs-5 me-3">
               Men
             </Nav.Link>
-            <Nav.Link href="#link" className="text-white fs-5 me-3">
+            <Nav.Link href="/womenpage" className="text-white fs-5 me-3">
               Women
             </Nav.Link>
           </Nav>
           <Nav className="ms-auto">
-            <Nav.Link href="#link" className="text-white ms-3">
+            <Nav.Link href="/" className="text-white ms-3">
               <Image src={SearchIcon} />
             </Nav.Link>
-            <Nav.Link href="#link" className="text-white ms-3">
+            <Nav.Link href="/wishlist" className="text-white ms-3">
               <Image src={BagIcon} />
             </Nav.Link>
-            <Nav.Link href="#link" className="text-white ms-3">
+            <Nav.Link href="/account" className="text-white ms-3">
               <Image src={GroupIcon} />
             </Nav.Link>
           </Nav>

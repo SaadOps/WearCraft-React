@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Section from './Section';
 import womenImage from '../assets/Womenimage.png'; 
+import { Link } from 'react-router-dom';
 
 export default function Womenpage() {
   return (
@@ -14,9 +15,9 @@ export default function Womenpage() {
       </div>
     </Row>
     <Row className='bg-[#052428] space-y-10'>
-      <Col className='pt-10'><Section Image={womenImage} tshirt="Oversized Tshirt" price="" /></Col>
-      <Col ><Section Image={womenImage} tshirt="Tops" price=""/></Col>
-      <Col ><Section Image={womenImage} tshirt="Baby Tees" price=""/></Col>
+      <Col className='pt-10'><Section Image={womenImage} link="/womenpage/oversizedwomen" tshirt="Oversized Tshirt" price="" /></Col>
+      <Col ><Section Image={womenImage} tshirt="Tops" link="/womenpage/topswomen" price=""/></Col>
+      <Col ><Section Image={womenImage} link="/womenpage/teeswomen" tshirt="Baby Tees" price=""/></Col>
     </Row>
 
   </Container>

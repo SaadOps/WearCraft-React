@@ -5,65 +5,79 @@ import {
 }from "react-router-dom";
 import './App.css';
 import './index.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Collections from './components/Collections';
-import Customization from './components/Customization'
-import Tagline from './components/Tagline'
-import Section from './components/Categorymen1';
-import Menpage from './components/Menpage';
-import Womenpage from './components/Womenpage';
-import Categorymen1 from './components/Categorymen1';
-import Categorywomen1 from './components/Categorywomen1';
-import Categorymen2 from './components/Categorymen2';
-import Categorymen3 from './components/Categorymen3';
-import Categorywomen2 from './components/Categorywomen2';
-import Categorywomen3 from './components/Categorywomen3';
-import Wishlist from './components/Wishlist';
-import Sectionsignin from './components/Sectionsignin';
-import Signinpage from './components/Signinpage';
-// const routerfg = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Hero/>
-//   },
-//   {
-//     path: "/menpage",
-//     element: <Menpage/>
-//   },
-//   {
-//     path: "/womenpage",
-//     element: <Womenpage/>
-//   },
-//   {
-//     path: "/menpage/oversizedmen",
-//     element: <Categorymen1/>
-//   },
-//   {
-//     path: "/menpage/basicsmen",
-//     element: <Categorymen2/>
-//   },
-//   {
-//     path: "/menpage/sweatshirtmen",
-//     element: <Categorymen3/>
-//   },
-//   {
-//     path: "/womenpage/oversizedwomen",
-//     element: <Categorywomen1/>
-//   },
-//   {
-//     path: "/womenpage/tees",
-//     element: <Categorywomen2/>
-//   },
-//   {
-//     path: "/womenpage/tops",
-//     element: <Categorywomen3/>
-//   },
-// ]);
+import Homepage from './pages/Homepage';
+import Wishlistpage from './pages/Wishlistpage';
+import Men from './pages/Men';
+import Women from './pages/Women';
+import Accountpage from './pages/Accountpage';
+import Shopnowpage from './pages/Shopnowpage';
+import Oversizedmen from './pages/Oversizedmen';
+import Basicsmen from './pages/Basicsmen';
+import Hoodiesmen from './pages/Hoodiesmen';
+import Oversizedwomen from './pages/Oversizedwomen';
+import Teeswomen from './pages/Teeswomen';
+import Topswomen from './pages/Topswomen';
+
+
+
+const routerfg = createBrowserRouter([
+  {
+    path: "/",
+    element: <Homepage/>
+  },
+  {
+    path: "/wishlist",
+    element: <Wishlistpage/>
+  },
+  {
+    path: "/menpage",
+    element: <Men/>
+  },
+  {
+    path: "/womenpage",
+    element: <Women/>
+  },
+  {
+    path: "/account",
+    element: <Accountpage/>
+  },
+  {
+    path: "/shopnowpage",
+    element: <Shopnowpage/>
+  },
+  {
+    path: "/menpage/oversizedmen",
+    element: <Oversizedmen/>
+  },
+  {
+    path: "/menpage/basicsmen",
+    element: <Basicsmen/>
+  },
+  {
+    path: "/menpage/hoodiesmen",
+    element: <Hoodiesmen/>
+  },
+  {
+    path: "/womenpage/oversizedwomen",
+    element: <Oversizedwomen/>
+  },
+  {
+    path: "/womenpage/teeswomen",
+    element: <Teeswomen/>
+  },
+  {
+    path: "/womenpage/topswomen",
+    element: <Topswomen/>
+  }
+]);
 function App() {
   return ( 
     <div className='m-0 p-0'>
-            <Navbar />
+
+
+     <RouterProvider router={routerfg} />
+ 
+            {/* <Navbar />
            <Hero />
           <Customization />
           <Collections />
@@ -77,8 +91,8 @@ function App() {
           <Categorywomen2/>
           <Categorywomen3/>
           <Wishlist/>
-          {/* <Sectionsignin/> */}
-          <Signinpage/>
+          <Sectionsignin/>
+          <Signinpage/> */}
 
     </div>
    
