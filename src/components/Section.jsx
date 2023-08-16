@@ -17,7 +17,7 @@ function Section(props) {
           <Card.Text className='text-left text-white font-bold text-lg'>
             {props.price}
           </Card.Text>
-          <Button href={props.link} className='w-40 h-5 pt-0 pb-4 ml-10 bg-black hover:bg-black text-black text-base text-white font-bold border-white rounded-none'>Shop Now</Button>
+          <Button  className='w-40 h-5 pt-0 pb-4 ml-10 bg-black hover:bg-black text-black text-base text-white font-bold border-white rounded-none'><Link to={props.link}>Shop Now</Link></Button>
         </Card.Body>
       </Card>
     </div>
