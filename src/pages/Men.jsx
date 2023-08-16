@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import Navbar from '../components/Navbar';
 import Menpage from '../components/Menpage';
+import Footer from '../components/Footer';
 
 const Men = () => {
     useEffect(()=>{
@@ -11,6 +12,7 @@ const Men = () => {
       <>
         <Navbar />
         <Menpage/>
+        <Footer/>
 </>
     )
   }

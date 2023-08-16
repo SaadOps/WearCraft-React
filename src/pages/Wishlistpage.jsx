@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import Navbar from '../components/Navbar';
 import Wishlist from '../components/Wishlist';
+import Footer from '../components/Footer';
 
 const Wishlistpage = () => {
     useEffect(()=>{
@@ -11,6 +12,7 @@ const Wishlistpage = () => {
       <>
         <Navbar />
         <Wishlist/>
+        <Footer/>
 </>
     )
   }

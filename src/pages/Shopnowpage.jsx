@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import Navbar from '../components/Navbar';
 import Shopnow from '../components/Shopnow';
+import Footer from '../components/Footer';
 
 const Shopnowpage = () => {
     useEffect(()=>{
@@ -11,6 +12,7 @@ const Shopnowpage = () => {
       <>
         <Navbar />
         <Shopnow/>
+        <Footer/>
 
       </>
     )

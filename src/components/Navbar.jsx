@@ -34,7 +34,7 @@ function Navb() {
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand
-          href="#home"
+          // href="#home"
           className="text-white text-center fs-2 position-absolute start-50 translate-middle-x"
         >
           WearCraft

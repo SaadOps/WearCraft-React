@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import Navbar from '../components/Navbar';
 import Categorymen1 from '../components/Categorymen1';
+import Footer from '../components/Footer';
 
 const Oversizedmen = () => {
     useEffect(()=>{
@@ -11,6 +12,7 @@ const Oversizedmen = () => {
       <>
         <Navbar />
         <Categorymen1/>
+        <Footer/>
 </>
     )
   }
