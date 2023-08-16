@@ -1,6 +1,7 @@
 import { Image, Card } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import heroImage from "../assets/Hero.png";
+import { Link } from "react-router-dom";
 
 function CardOnImage() {
   return (
@@ -17,12 +18,13 @@ function CardOnImage() {
             <Card.Title className="text-white font-bold text-lg md:text-3xl  whitespace-nowrap mb-4">
               Discover the new you
             </Card.Title>
-            <Button
-              variant="primary"
-              className="bg-white hover:bg-gray-100 text-black text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-3xl font-bold py-2 px-4 rounded"
-            >
+            {/* <Button> */}
+            <Link to="/shopnowpage"
+              
+              className="bg-white hover:bg-black hover:text-white text-black text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-3xl font-bold py-2 px-4 "
+            />
               Shop Now
-            </Button>
+            {/* </Button> */}
             {/* <Card.Text className="text-white text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-3xl mt-4 whitespace-nowrap mr-50"> */}
             <Card.Text className="text-white text-sm sm:text-base  md:text-3xl  mt-4 whitespace-nowrap md:-ml-40">
               We know your expectations about clothes

@@ -1,6 +1,7 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Men from "../assets/Men.png";
 import Women from "../assets/Women.png";
+import { Link } from "react-router-dom";
 
 function Collections() {
   return (
@@ -12,9 +13,9 @@ function Collections() {
             md={4}
             className="bg-black flex items-center justify-center"
           >
-            <div className="text-center text-white">
-              <p className="text-xl md:text-4xl md:font-bold">Men's</p>
-              <p className="text-base md:text-2xl">View Collection</p>
+            <div className="text-center text-white" ><Link to="/menpage">
+              <p className="text-xl md:text-4xl md:font-bold" >Men's</p>
+              <p className="text-base md:text-2xl">View Collection</p></Link>
             </div>
           </Col>
           <Col xs={12} md={8} className="p-0">
@@ -52,9 +53,9 @@ function Collections() {
             md={4}
             className="bg-black flex items-center justify-center"
           >
-            <div className="text-center text-white">
+            <div className="text-center text-white"><Link to="/womenpage">
               <p className="text-xl md:text-4xl md:font-bold">Women's</p>
-              <p className="text-base md:text-2xl">View Collection</p>
+              <p className="text-base md:text-2xl">View Collection</p></Link>
             </div>
           </Col>
         </Row>
