@@ -4,11 +4,9 @@ import taglineImage from "../assets/Tagline.png";
 
 const HeroSection = () => {
   return (
-
     <div className="bg-[#052428]  md:pb-40 lg:pb-20  ">
       <div className="bg-[#445B5E]  py-1  md:my-0 md:mb-20 -my-20 mt-3"> </div>
       <Container className="h-screen flex flex-col justify-center items-center ">
-
         <Row className="h-full w-full">
           <Col className="flex justify-center items-center">
             <div className="relative bg-black sm:p-4 md:p-8 lg:p-20 ">

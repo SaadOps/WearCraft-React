@@ -13,7 +13,7 @@ const Homepage = () => {
       document.title = "Wearcraft - Home";
   },[])
     return (
-      <>
+      <div className='bg-[#052428]'>
         <Navbar />
         <Hero />
         <Customization />
@@ -21,7 +21,7 @@ const Homepage = () => {
         <Tagline /> 
         <NewIn/>
         <Footer/>
-      </>
+      </div>
     )
   }
   

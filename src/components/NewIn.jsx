@@ -8,7 +8,7 @@ import New3 from "../assets/New3.png";
 function BasicExample() {
   return (
     <div
-      className="bg-[#052428] d-flex justify-content-center align-items-center text-white pl-10 "
+      className="bg-[#052428] d-flex justify-content-center align-items-center text-white pl-10 lg:pt-20"
       style={{ minHeight: "100vh" }}
     >
       <div className="row justify-content-center no-gutters ">
@@ -63,3 +63,4 @@ function BasicExample() {
 }
 
 export default BasicExample;
+
