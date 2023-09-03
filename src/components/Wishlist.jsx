@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import wishlistImage from '../assets/Wishlistimage.png';
 import Sectionwishlist from './Sectionwishlist';
+import { Link } from 'react-router-dom';
 
 export default function Wishlist() {
   return (
@@ -17,6 +18,9 @@ export default function Wishlist() {
       <div className=' bg-[#052428] pt-2 text-center text-base sm:text-base md:text-lg lg:text-xl text-white '>
       This is the selection of items you like the most
       </div>
+    </Row>
+    <Row>
+    <Link className=' bg-black w-[200px] py-2 text-center text-xl sm:text-xl md:text-xl lg:text-xl text-white font-semibold' to="/cartpage/orderhistory">Order History</Link>
     </Row>
     <Row className='bg-[#052428] space-y-10'>
       <Col className='pt-10'><Sectionwishlist Image={wishlistImage} tshirt="Wide twill trousers" price="Rs. 1,299"  /></Col>

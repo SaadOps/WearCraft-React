@@ -2,8 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Section from './Section';
 import menImage from '../assets/Menimage.jpg';
+import Sectioncategory from './Sectioncategory';
 
 export default function Categorymen3() {
   return (
@@ -14,9 +14,9 @@ export default function Categorymen3() {
         </div>
       </Row>
       <Row className='bg-[#052428] space-y-10'>
-        <Col className='pt-10'><Section Image={menImage} tshirt=" Black Sweatshirt" price="Rs. 799" /></Col>
-        <Col ><Section Image={menImage} tshirt="White Hoodie" price="Rs. 799"/></Col>
-        <Col ><Section Image={menImage} tshirt="Blue Sweatshirt" price="Rs. 799"/></Col>
+        <Col className='pt-10'><Sectioncategory Image={menImage} tshirt=" Black Sweatshirt" price="Rs. 799" /></Col>
+        <Col ><Sectioncategory Image={menImage} tshirt="White Hoodie" price="Rs. 799"/></Col>
+        <Col ><Sectioncategory Image={menImage} tshirt="Blue Sweatshirt" price="Rs. 799"/></Col>
       </Row>
 
     </Container>

@@ -25,7 +25,7 @@ function Navb() {
             <Nav.Link href="/" className="text-white ms-3">
               <Image src={SearchIcon} />
             </Nav.Link>
-            <Nav.Link href="/wishlist" className="text-white ms-3">
+            <Nav.Link href="/cartpage" className="text-white ms-3">
               <Image src={BagIcon} />
             </Nav.Link>
             <Nav.Link href="/account" className="text-white ms-3">

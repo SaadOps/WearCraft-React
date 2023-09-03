@@ -2,8 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Section from './Section';
 import womenImage from '../assets/Womenimage.png';
+import Sectioncategory from './Sectioncategory';
 
 export default function Categorywomen3() {
   return (
@@ -14,9 +14,9 @@ export default function Categorywomen3() {
       </div>
     </Row>
     <Row className='bg-[#052428] space-y-10'>
-      <Col className='pt-10'><Section Image={womenImage} tshirt="Black Tops" price="Rs. 699" /></Col>
-      <Col ><Section Image={womenImage} tshirt="White Tops" price="Rs. 699"/></Col>
-      <Col ><Section Image={womenImage} tshirt="Pink Tops" price="Rs. 699"/></Col>
+      <Col className='pt-10'><Sectioncategory Image={womenImage} tshirt="Black Tops" price="Rs. 699" /></Col>
+      <Col ><Sectioncategory Image={womenImage} tshirt="White Tops" price="Rs. 699"/></Col>
+      <Col ><Sectioncategory Image={womenImage} tshirt="Pink Tops" price="Rs. 699"/></Col>
     </Row>
 
   </Container>
